@@ -1,0 +1,193 @@
+
+
+body
+{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+#darksouls3{
+    background-attachment: fixed;
+    background-image: url(../Imagens/walrupaperuu.jpg);
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+.logo
+{   
+    font-family: 'Gluten', cursive;
+    font-weight: 800;
+    font-size: 50px;
+    width: 0%;
+    font-style: italic;
+    color: #0C4A6E;
+}
+p, h1, h2, h3, h4, ul, li, a, header, aside, main
+{
+    list-style: none;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+}
+p, h1, h2, h3, h4
+{
+    margin: 1%;
+    padding-top: 10px;
+}
+header, nav, ul, #menu, li, a , section
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Gluten', cursive;
+}
+#menu
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 99%;
+    padding: 30px 30px 30px 30px;
+    border-bottom: solid red 1px;
+    background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+    /*border: 1px red solid;*/            /*quando eu uso 'border-right' ou só 'border' ele não aparece int eu vou deixar sem*/
+
+}
+.logo:hover
+{
+    color: #1C1C1C;
+}
+.r:hover
+{
+    color: red;
+}
+.glow:hover .r /* e queria tipo pasar o mouse na imagem e atravez do hover deixar o h2 vermelho*/
+{
+    color: red;
+}
+.titulo{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#vid{
+    display: block;
+    margin: auto;
+    padding: 8px;
+    
+}
+.cantinho{
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;;
+    padding: 1%; 
+    margin: 0;
+    border: solid #ba592f;
+    border-width: 1px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+.canto{
+    padding: 30px;
+    padding-top: 200px;
+    
+}
+
+.conteudo{
+    display: table;
+    
+}
+.imagem {
+    display: table-cell;
+    float: left;
+    margin: auto;
+    padding: auto;
+}
+.texto {
+    
+    display: table-cell;
+    float: left;
+    width: 400px;
+    padding: auto;
+    margin: auto;
+    margin-top: -17px;
+    margin-left: 30px;
+}
+#boss1
+{
+    height: 504px;
+}
+
+
+
+.escreva
+{
+    size: 30px;
+    width: 98%;
+    margin-top: -18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form
+{
+    display: flex;
+    margin-top: -4%;   
+}
+
+.hei
+{
+    height: 5%;
+    margin-top: 2%;
+}
+
+#can
+{
+    padding: 10% 10% 10% 10%;
+}
+.alin
+{
+    margin: 0px;
+    border: red 1px solid;
+    display: flex;
+    
+}
+.img
+{
+    display: table-cell;
+}
+.txt
+{
+    display: table-cell;
+    padding-left: 3%;
+}
+.alin-text
+{
+    float: left;
+    width: 1233px;
+    padding: auto;
+    margin: auto;
+}
+#flex
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+}
+.borda
+{
+    border: solid red 1px;
+    margin-top: 5px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.fix
+{
+    margin-top: -60px;
+}
